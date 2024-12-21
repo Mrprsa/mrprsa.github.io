@@ -1,51 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Online Store</title>
-    <!-- Link to the JavaScript file -->
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Display</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Online Store!!!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="products">
-            <h2>Our Products</h2>
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>$10.00</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product">
-                <img src="product2.jpg" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>$15.00</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product">
-                <img src="product3.jpg" alt="Product 3">
-                <h3>Product 3</h3>
-                <p>$20.00</p>
-                <button>Add to Cart</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Online Store. All rights reserved.</p>
-    </footer>
+  <div class="weather-app">
+    <h1>Weather Display</h1>
+    <p>Select a city to see the weather:</p>
+    <div class="city-buttons">
+      <button onclick="showWeather('Tbilisi')">Tbilisi</button>
+      <button onclick="showWeather('London')">London</button>
+      <button onclick="showWeather('Tokyo')">Tokyo</button>
+    </div>
+    <div class="weather-info">
+      <h2 id="city-name">City: -</h2>
+      <p id="temperature">Temperature: -</p>
+      <p id="condition">Condition: -</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

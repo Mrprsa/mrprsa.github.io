@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f8ff;
+    background-color: #213555;
     margin: 0;
     padding: 0;
   }
@@ -10,8 +10,8 @@ body {
     padding: 20px;
     max-width: 400px;
     margin: 50px auto;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #B1F0F7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
   }
   

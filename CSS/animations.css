@@ -1,0 +1,15 @@
+@keyframes artist {
+    0% {font-size: 30px;}
+    50% {font-size: 32px;}
+    100% {font-size: 30px;}
+}
+
+@keyframes circle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(30000deg);}
+}
+
+@keyframes search {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}

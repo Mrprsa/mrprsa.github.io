@@ -1,14 +1,14 @@
- function weather1click() {
-    document.getElementById("WeatherInformation").innerHTML="Tempreture: 35C";
-    document.getElementById("WeatherCity").innerHTML="City: Tehran";
- }
+// Select all elements you want to scroll horizontally
+const scrollElements = document.querySelectorAll('#max1, #max2, #max3');
 
- function weather2click() {
-    document.getElementById("WeatherInformation").innerHTML="Tempreture: 20C";
-    document.getElementById("WeatherCity").innerHTML="City: Tbilisi";
- }
+// Set a multiplier for scroll speed
+const scrollSpeed = 2; // Increase or decrease this value to adjust the speed
 
- function weather3click() {
-    document.getElementById("WeatherInformation").innerHTML="Tempreture: 45C";
-    document.getElementById("WeatherCity").innerHTML="City: Istanbul";
- }
+// Loop through each element and add the scroll behavior
+scrollElements.forEach((element) => {
+  element.addEventListener('wheel', (event) => {
+    event.preventDefault();
+    // Smoothly scroll horizontally
+    element.scrollLeft += event.deltaY * scrollSpeed;
+  });
+});

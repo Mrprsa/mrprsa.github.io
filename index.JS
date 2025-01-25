@@ -1,16 +1,14 @@
-const weatherData = {
-    Tbilisi: { temperature: "15°C", condition: "Sunny" },
-    London: { temperature: "7°C", condition: "Rainy" },
-    Tokyo: { temperature: "20°C", condition: "Cloudy" }
-  };
-  
-  function showWeather(city) {
-    const cityName = document.getElementById("city-name");
-    const temperature = document.getElementById("temperature");
-    const condition = document.getElementById("condition");
-  
-    cityName.textContent = `City: ${city}`;
-    temperature.textContent = `Temperature: ${weatherData[city].temperature}`;
-    condition.textContent = `Condition: ${weatherData[city].condition}`;
-  }
-  
+ function weather1click() {
+    document.getElementById("WeatherInformation").innerHTML="Tempreture: 35C";
+    document.getElementById("WeatherCity").innerHTML="City: Tehran";
+ }
+
+ function weather2click() {
+    document.getElementById("WeatherInformation").innerHTML="Tempreture: 20C";
+    document.getElementById("WeatherCity").innerHTML="City: Tbilisi";
+ }
+
+ function weather3click() {
+    document.getElementById("WeatherInformation").innerHTML="Tempreture: 45C";
+    document.getElementById("WeatherCity").innerHTML="City: Istanbul";
+ }

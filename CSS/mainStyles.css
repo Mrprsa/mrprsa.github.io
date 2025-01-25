@@ -34,7 +34,6 @@
     --sub-main-container-height: 100%;
     --sub-main-container-padding: 0;
 
-    border: 2px dotted red;
     width: var(--sub-main-container-width);
     height: var(--sub-main-container-height);
     display: inline-flex;

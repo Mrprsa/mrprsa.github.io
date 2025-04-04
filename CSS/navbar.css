@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+nav {
+    --tb-width: 100vw;
+    --tb-height: 90px;
+
+    background-color: rgb(255, 255, 255);
+    width: var(--tb-width);
+    height: var(--tb-height);
+    display: flex;
+    align-items: center;
+    font-family: "winky Sans", sans-serif;
+}
+
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hov-nav {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #0B93F4;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hov-nav:hover {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.logo {
+    font-family: 'Winky Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    color: #0B93F4;
+    margin: 20px 830px 20px 50px;
+}

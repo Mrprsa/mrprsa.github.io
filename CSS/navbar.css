@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 
 nav {
-    --tb-width: 100vw;
-    --tb-height: 90px;
+    --nb-width: 100%;
+    --nb-height: 30px;
+    --nb-bg-color: #ECAFAC;
+    --nb-border-color: #FF6F61;
 
-    background-color: rgb(255, 255, 255);
-    width: var(--tb-width);
-    height: var(--tb-height);
+    width: var(--nb-width);
+    height: var(--nb-height);
+    background-color: var(--nb-bg-color);
+    color: #B57673;
     display: flex;
     align-items: center;
+    font-size: 12px;
     font-family: "winky Sans", sans-serif;
 }
 
@@ -24,25 +29,24 @@ ul li {
     display: inline-block;
 }
 
+.nav-bar .web-name {
+    margin-left: 10px;
+}
+
+.nav-bar .nav-list {
+    display: flex;
+    margin-left: 25px;}
+
 .hov-nav {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     display: block;
-    color: #0B93F4;
+    color: #B57673;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 8px;
     transition: all 0.2s ease-in-out;
 }
 
 .hov-nav:hover {
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.logo {
-    font-family: 'Winky Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 650;
-    color: #0B93F4;
-    margin: 20px 830px 20px 50px;
+    font-size: 10px;
 }

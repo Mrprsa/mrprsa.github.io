@@ -1,0 +1,29 @@
+.prod-cnt {
+    --prd-c-width: 95%;
+    --prd-c-height: 280px;
+
+    background-color: blue;
+    width: var(--prd-c-width);
+    height: var(--prd-c-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allows wrapping to new lines */
+    justify-content: start;
+}
+
+.prod-cnt .prd {
+    --prd-width: 100px;
+    --prd-height: 120px;
+
+    background-color: #FF6F61;
+    width: var(--prd-width);
+    height: var(--prd-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 5px;
+}

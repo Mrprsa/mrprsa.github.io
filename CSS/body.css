@@ -28,7 +28,6 @@ body {
     --mc-width: 100%;
     --mc-height: 100vh;
 
-    border: 2px solid red;
     width: var(--mc-width);
     height: var(--mc-height);
     display: flex;
@@ -37,3 +36,23 @@ body {
     align-items: center;
 }
 
+.wrapper {
+    --wr-width: 330px;
+    --wr-height: 100vh;
+
+    background-color: red;
+    width: var(--wr-width);
+    height: var(--wr-height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-line {
+    background-color: #5C302D;
+    width: 100vw;
+    height: 3px;
+    opacity: 1;
+    margin: 2px 0px;
+    display: flex;
+}

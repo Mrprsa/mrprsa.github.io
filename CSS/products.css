@@ -20,10 +20,58 @@
     background-color: #FF6F61;
     width: var(--prd-width);
     height: var(--prd-height);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-left: 30px;
     margin-right: 5px;
+}
+
+.prod-cnt .prd img {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.prod-cnt .prd .prd-desc {
+    font-size: 7px;
+    margin-left: 10px;
+}
+
+.prod-cnt .prd #prd-line {
+    width: 90%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.prod-cnt .prd .prchs {
+    height: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.prod-cnt .prd .prchs .prd-price {
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.prod-cnt .prd .prchs .cart-img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0px 3px 10px 0px;
 }

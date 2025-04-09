@@ -50,3 +50,9 @@ ul li {
 .hov-nav:hover {
     font-size: 10px;
 }
+
+.nav-bar .nav-list img {
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 8px 60px;
+}

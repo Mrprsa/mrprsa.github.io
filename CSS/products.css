@@ -2,7 +2,6 @@
     --prd-c-width: 95%;
     --prd-c-height: 280px;
 
-    background-color: blue;
     width: var(--prd-c-width);
     height: var(--prd-c-height);
     display: flex;
@@ -17,7 +16,7 @@
     --prd-width: 100px;
     --prd-height: 120px;
 
-    background-color: #FF6F61;
+    background-color: #B57673;
     width: var(--prd-width);
     height: var(--prd-height);
     border-radius: 5px;
@@ -44,12 +43,12 @@
     margin-left: 10px;
 }
 
-.prod-cnt .prd #prd-line {
+.prod-cnt .prd .prd-line {
     width: 90%;
     height: 1px;
     background-color: #000;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
 }
 
 .prod-cnt .prd .prchs {
@@ -66,12 +65,19 @@
     font-weight: bold;
     color: #ffffff;
     align-self: flex-start;
-    margin-left: 10px;
+    margin-left: 3px;
+    margin-top: 4px;
 }
 
-.prod-cnt .prd .prchs .cart-img {
-    width: 20px;
-    height: 20px;
+.prod-cnt .prd .prchs .prd-btn {
+    background-color: #713E3D;
+    color: #fff;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 2px 5px;
+    border: none;
     cursor: pointer;
-    margin: 0px 3px 10px 0px;
+    transition: all 0.2s ease-in-out;
 }

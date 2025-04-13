@@ -10,6 +10,8 @@
     flex-wrap: wrap;
     /* Allows wrapping to new lines */
     justify-content: start;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .prod-cnt .prd {
@@ -46,7 +48,8 @@
 .prod-cnt .prd .prd-line {
     width: 90%;
     height: 1px;
-    background-color: #000;
+    background-color: #492422;
+    opacity: 0.8;
     margin-top: 5px;
     margin-bottom: 2.5px;
 }

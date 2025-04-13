@@ -35,17 +35,21 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    overflow: hidden;
 }
 
 .wrapper {
     --wr-width: 330px;
     --wr-height: 100vh;
 
+    background: linear-gradient(to right, hsl(0, 100%, 90%), hwb(0 17% 65% / 0.847), hsl(0, 100%, 90%));
     width: var(--wr-width);
     height: var(--wr-height);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .div-line {
@@ -53,6 +57,6 @@ body {
     width: 100vw;
     height: 3px;
     opacity: 1;
-    margin: 2px 0px;
+    margin: 10px 0px;
     display: flex;
 }

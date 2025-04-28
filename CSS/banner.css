@@ -1,7 +1,8 @@
 .banner-cont {
     --bc-width: 100vw;
     --bc-height: 200px;
- 
+
+    background-color: blue;
     width: var(--bc-width);
     height: 180px;
 }

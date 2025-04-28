@@ -1,7 +1,9 @@
 .prod-cnt {
     --prd-c-width: 95%;
-    --prd-c-height: 280px;
+    --prd-c-height: 2000px;
+    --trns-rotate: rotate(90deg);
 
+    /* background-color: red; */
     width: var(--prd-c-width);
     height: var(--prd-c-height);
     display: flex;
@@ -10,6 +12,7 @@
     flex-wrap: wrap;
     /* Allows wrapping to new lines */
     justify-content: start;
+    padding-left: 3px;
 }
 
 .prod-cnt .prd {
@@ -26,16 +29,88 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 5px;
+    margin-left: 35px;
 }
 
-.prod-cnt .prd img {
-    width: 90%;
-    height: 50px;
-    margin-bottom: 5px;
+.product-img-cnt {
+    background-color: red;
+    width: 90px;
+    max-width: 90px;
+    aspect-ratio: 16/9;
+    background-color: white;
+    margin: 5px auto;
+    padding: 0px;
+    font-size: 0px;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 90px;
+}
+
+/* product 1 */
+
+#prdOne {
+    font-size: 11px;
+    font-weight: bold;
     margin-top: 3px;
-    border-radius: 5px;
+}
+
+/* product 2 */
+
+#prdTwo {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+/* product 3 */
+
+#prdThree {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+/* product 4 */
+
+#prdFour {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+/* product 5 */
+
+#prdFive {
+    font-size: 11.5px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+/* product 6 */
+
+#prdSix {
+    font-size: 10.2px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+/* product 7 */
+
+#prdSeven {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+/* product 8 */
+
+#prdEight {
+    font-size: 11.5px;
+    font-weight: bold;
+    margin-top: 1px;
 }
 
 .prod-cnt .prd .prd-desc {

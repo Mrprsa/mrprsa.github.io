@@ -41,6 +41,7 @@ body {
     --wr-width: 330px;
     --wr-height: 100vh;
 
+    /* background-color: blue; */
     width: var(--wr-width);
     height: var(--wr-height);
     display: flex;

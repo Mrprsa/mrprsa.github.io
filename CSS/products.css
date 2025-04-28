@@ -3,7 +3,7 @@
     --prd-c-height: 2000px;
     --trns-rotate: rotate(90deg);
 
-    /* background-color: red; */
+    /*background-color: red; */
     width: var(--prd-c-width);
     height: var(--prd-c-height);
     display: flex;
@@ -33,7 +33,6 @@
 }
 
 .product-img-cnt {
-    background-color: red;
     width: 90px;
     max-width: 90px;
     aspect-ratio: 16/9;

@@ -13,7 +13,7 @@ nav {
     height: var(--nb-height);
     background-color: var(--nb-bg-color);
     color: #B57673;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-size: 12px;
     font-family: "winky Sans", sans-serif;
@@ -54,5 +54,7 @@ ul li {
 .nav-bar .nav-list img {
     width: 15px;
     height: 15px;
-    margin: 8px 5px 8px 60px;
+    align-self: center;
+    margin-right: auto;
+    margin-left: 50px;
 }

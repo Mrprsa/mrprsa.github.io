@@ -1,9 +1,15 @@
+.cont-txt {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .prod-cnt {
     --prd-c-width: 95%;
     --prd-c-height: 2000px;
-    --trns-rotate: rotate(90deg);
 
-    /*background-color: red; */
     width: var(--prd-c-width);
     height: var(--prd-c-height);
     display: flex;
@@ -32,11 +38,10 @@
     margin-left: 35px;
 }
 
+
 .product-img-cnt {
     width: 90px;
-    max-width: 90px;
     aspect-ratio: 16/9;
-    background-color: white;
     margin: 5px auto;
     padding: 0px;
     font-size: 0px;

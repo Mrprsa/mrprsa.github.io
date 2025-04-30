@@ -1,0 +1,49 @@
+@media (min-width: 480px) and (min-height: 932px) {
+    .web-name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-list li a {
+        font-size: 12px;
+    }
+
+    .Header {
+        margin-top: 40px;
+    }
+
+    .prod-cnt {
+        margin-top: 30px;
+    }
+
+    .prd {
+        width: 120px !important;
+        height: 150px !important;
+        margin-left: 25px !important;
+    }
+
+    .product-img-cnt {
+        width: 110px !important;
+    }
+
+    .product-img {
+        width: 100% !important;
+    }
+
+    #prdOne {
+        font-size: 13.5px !important;
+    }
+
+    #prdTwo {
+        font-size: 15px !important;
+    }
+
+    #prdSix {
+        font-size: 11.5px !important;
+    }
+
+    .prd-desc {
+        font-size: 9px !important;
+        margin-top: 6px;
+    }
+}

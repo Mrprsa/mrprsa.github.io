@@ -2,8 +2,9 @@
     width: 100%;
     height: 30px;
     text-align: center;
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    color: #8C5754;
+    margin-bottom: 10px;
 }
 
 .prod-cnt {
@@ -25,11 +26,11 @@
     --prd-width: 100px;
     --prd-height: 120px;
 
-    background-color: #B57673;
+    background-color: hsl(3, 31%, 58%);
     width: var(--prd-width);
     height: var(--prd-height);
     border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -56,7 +57,7 @@
 
 #prdOne {
     font-size: 11px;
-    font-weight: bold;
+
     margin-top: 3px;
 }
 
@@ -64,7 +65,7 @@
 
 #prdTwo {
     font-size: 14px;
-    font-weight: bold;
+
     margin-top: 1px;
 }
 
@@ -72,7 +73,7 @@
 
 #prdThree {
     font-size: 12px;
-    font-weight: bold;
+
     margin-top: 1px;
 }
 
@@ -80,7 +81,7 @@
 
 #prdFour {
     font-size: 12px;
-    font-weight: bold;
+
     margin-top: 1px;
 }
 
@@ -88,7 +89,7 @@
 
 #prdFive {
     font-size: 11.5px;
-    font-weight: bold;
+
     margin-top: 1px;
     margin-bottom: 2px;
 }
@@ -97,7 +98,7 @@
 
 #prdSix {
     font-size: 10.2px;
-    font-weight: bold;
+
     margin-bottom: 2px;
 }
 
@@ -105,7 +106,7 @@
 
 #prdSeven {
     font-size: 12px;
-    font-weight: bold;
+
     margin-top: 1px;
 }
 
@@ -113,50 +114,11 @@
 
 #prdEight {
     font-size: 11.5px;
-    font-weight: bold;
+
     margin-top: 1px;
 }
 
 .prod-cnt .prd .prd-desc {
     font-size: 7px;
     margin-left: 10px;
-}
-
-.prod-cnt .prd .prd-line {
-    width: 90%;
-    height: 1px;
-    background-color: #000;
-    margin-top: 5px;
-    margin-bottom: 2.5px;
-}
-
-.prod-cnt .prd .prchs {
-    height: 20px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-}
-
-.prod-cnt .prd .prchs .prd-price {
-    font-size: 10px;
-    font-weight: bold;
-    color: #ffffff;
-    align-self: flex-start;
-    margin-left: 3px;
-    margin-top: 4px;
-}
-
-.prod-cnt .prd .prchs .prd-btn {
-    background-color: #713E3D;
-    color: #fff;
-    font-size: 8px;
-    font-weight: bold;
-    border-radius: 24px;
-    margin: 0px;
-    padding: 2px 5px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
 }

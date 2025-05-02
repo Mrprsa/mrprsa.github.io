@@ -19,6 +19,10 @@ nav {
     font-family: "winky Sans", sans-serif;
 }
 
+.web-name {
+    font-size: 16px;
+}
+
 ul {
     margin-left: 0px;
     padding-left: 0px;
@@ -35,7 +39,9 @@ ul li {
 
 .nav-bar .nav-list {
     display: flex;
-    margin-left: 25px;}
+    margin-left: 25px;
+}
+
 
 .hov-nav {
     text-decoration: none;
@@ -43,12 +49,12 @@ ul li {
     display: block;
     color: #B57673;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 10px;
     transition: all 0.2s ease-in-out;
 }
 
 .hov-nav:hover {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .nav-bar .nav-list img {

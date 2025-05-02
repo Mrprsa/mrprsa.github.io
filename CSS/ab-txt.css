@@ -1,0 +1,17 @@
+.txt-cnt {
+    font-size: 10px !important;
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    background-color: #8C5754;
+    margin: 35px auto;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.txt-cnt .text {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: wavy;
+    margin: 10px 10px;
+}

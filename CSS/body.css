@@ -89,7 +89,7 @@ body {
 
 .main-cont {
     --mc-width: 100%;
-    --mc-height: 100vh;
+    --mc-height: 100%;
 
     width: var(--mc-width);
     height: var(--mc-height);
@@ -100,14 +100,15 @@ body {
 }
 
 .wrapper {
-    --wr-width: 330px;
-    --wr-height: 100vh;
+    --wr-width: 100%;
+    --wr-height: 100%;
 
     width: var(--wr-width);
     height: var(--wr-height);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .div-line {

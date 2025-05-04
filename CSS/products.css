@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&display=swap');
+
 .cont-txt {
     width: 100%;
     height: 30px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 35px;
     color: #8C5754;
     margin-bottom: 10px;
 }
 
 .prod-cnt {
     --prd-c-width: 95%;
-    --prd-c-height: 2000px;
+    --prd-c-height: 100%;
 
     width: var(--prd-c-width);
     height: var(--prd-c-height);
@@ -19,29 +21,32 @@
     flex-wrap: wrap;
     /* Allows wrapping to new lines */
     justify-content: start;
-    padding-left: 3px;
 }
 
 .prod-cnt .prd {
-    --prd-width: 100px;
-    --prd-height: 120px;
+    --prd-width: 150px;
+    --prd-height: 300px;
 
-    background-color: hsl(3, 31%, 58%);
+    background-color: rgba(181, 118, 115, 0.7);
     width: var(--prd-width);
-    height: var(--prd-height);
+    /*height: var(--prd-height);*/
+    aspect-ratio: 9/14;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-left: 35px;
+    margin: 10px auto;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 
 .product-img-cnt {
-    width: 90px;
+    --img-width: 94%;
+
+    width: var(--img-width);
     aspect-ratio: 16/9;
     margin: 5px auto;
     padding: 0px;
@@ -50,75 +55,66 @@
 }
 
 .product-img {
-    width: 90px;
+    width: 100%;
+}
+
+.prd-tit-margin {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* product 1 */
 
 #prdOne {
-    font-size: 11px;
-
-    margin-top: 3px;
+    font-size: 18px;
 }
 
 /* product 2 */
 
 #prdTwo {
-    font-size: 14px;
-
-    margin-top: 1px;
+    font-size: 18px;
 }
 
 /* product 3 */
 
 #prdThree {
-    font-size: 12px;
-
-    margin-top: 1px;
+    font-size: 17px;
 }
 
 /* product 4 */
 
 #prdFour {
-    font-size: 12px;
-
-    margin-top: 1px;
+    font-size: 18px;
 }
 
 /* product 5 */
 
 #prdFive {
-    font-size: 11.5px;
-
-    margin-top: 1px;
-    margin-bottom: 2px;
+    font-size: 17px;
 }
 
 /* product 6 */
 
 #prdSix {
-    font-size: 10.2px;
-
-    margin-bottom: 2px;
+    font-size: 17px;
 }
 
 /* product 7 */
 
 #prdSeven {
-    font-size: 12px;
-
-    margin-top: 1px;
+    font-size: 18px;
 }
 
 /* product 8 */
 
 #prdEight {
-    font-size: 11.5px;
-
-    margin-top: 1px;
+    font-size: 17px;
 }
 
 .prod-cnt .prd .prd-desc {
-    font-size: 7px;
+    height: 95px;
+    overflow-y: scroll;
+    font-size: 11px;
     margin-left: 10px;
+    margin-right: 10px;
 }

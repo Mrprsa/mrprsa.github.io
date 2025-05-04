@@ -28,27 +28,19 @@
 
 .footer .ft-cont .row .ft-col #h4-help {
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .footer .ft-cont .row .ft-col #h4-follow {
     font-size: 12px;
 }
 
-.ft-col h4 {
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-}
 
-.ft-col h4::before {
-    content: '';
-    position: absolute;
-    left: 10;
-    bottom: -250px;
-    background-color: #F24049;
+.ft-col .h4-before {
+    width: 35px;
     height: 2px;
-    width: 25px;
+    background-color: rgb(242, 64, 73);
+    margin: 3px 0 3px 0;
 }
 
 .ft-col ul {
@@ -62,4 +54,8 @@
 }
 .social-links a i {
     color: hsl(3,40%,68%);
+}
+
+.capitalize {
+    text-transform: capitalize;
 }

@@ -1,12 +1,14 @@
 .footer {
     background-color: #5C302D;
     width: 100%;
+    display: inline-flex;
     padding: 20px 0;
 }
 
 .footer .ft-cont {
     width: 95%;
     margin: auto;
+    height: 100px;
 }
 
 .footer .ft-cont .row {

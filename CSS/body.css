@@ -36,11 +36,11 @@ body {
 .BGsteak {
     --BG-rotate: -45deg;
 
-    width: 60%;
+    width: 50%;
     position: absolute;
     z-index: -1;
-    top: 550px;
-    left: -30px;
+    top: 440px;
+    left: 0px;
     transform: rotate(var(--BG-rotate));
     opacity: 0.5;
     position: fixed;
@@ -49,10 +49,10 @@ body {
 .BGchicken {
     --BG-rotate: -90deg;
 
-    width: 60%;
+    width: 50%;
     position: absolute;
     z-index: -1;
-    top: 400px;
+    top: 325px;
     left: 170px;
     transform: rotate(var(--BG-rotate));
     opacity: 0.5;
@@ -62,7 +62,7 @@ body {
 .BGfish {
     --BG-rotate: -45deg;
 
-    width: 60%;
+    width: 50%;
     position: absolute;
     z-index: -1;
     top: 200px;
@@ -75,10 +75,10 @@ body {
 .BGshank {
     --BG-rotate: 15deg;
 
-    width: 60%;
+    width: 50%;
     position: absolute;
     z-index: -1;
-    top: -30px;
+    top: 20px;
     left: 160px;
     transform: scaleX(-1) rotate(var(--BG-rotate));
     opacity: 0.5;

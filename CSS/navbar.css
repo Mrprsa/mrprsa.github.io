@@ -20,7 +20,8 @@ nav {
 }
 
 .web-name {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 ul {
@@ -39,7 +40,7 @@ ul li {
 
 .nav-bar .nav-list {
     display: flex;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 

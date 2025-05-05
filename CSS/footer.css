@@ -59,3 +59,7 @@
 .capitalize {
     text-transform: capitalize;
 }
+
+.social-links a i {
+    width: 16px;
+}

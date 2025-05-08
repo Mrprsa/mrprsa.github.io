@@ -3,20 +3,23 @@
 
 
 
-nav {
+.nav-bar {
     --nb-width: 100%;
     --nb-height: 30px;
-    --nb-bg-color: #ECAFAC;
-    --nb-border-color: #FF6F61;
 
     width: var(--nb-width);
     height: var(--nb-height);
-    background-color: var(--nb-bg-color);
+    background-color: rgba(236, 175, 172, 0.9);
     color: #B57673;
     display: inline-flex;
     align-items: center;
     font-size: 12px;
     font-family: "winky Sans", sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .web-name {

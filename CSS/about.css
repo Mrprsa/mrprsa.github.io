@@ -1,0 +1,24 @@
+.about-cont{
+    font-size: 10px !important;
+    width: 85vw;
+    height: 100%;
+    display: flex;
+    background-color: rgba(140, 87, 84, 0.87);
+    margin: 35px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-cont .about {
+    padding: 0 10px 30px 10px;font-family: 'Poppins', sans-serif !important;
+}
+
+.about .text {
+    font-size: 13px;
+}
+
+.about-cont .about h4 {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
